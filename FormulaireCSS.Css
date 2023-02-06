@@ -1,0 +1,46 @@
+body{
+  margin: 0 auto;
+  background: url(https://s1.1zoom.me/b6253/506/Roses_Closeup_Black_background_Red_Petals_538529_1920x1080.jpg);
+}
+
+
+.formulaire{
+    align-items: center;
+    margin-bottom:10px;
+    color:white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 400px;
+    overflow: hidden;
+    background-color: #12121 ;
+}
+header.header{
+  display: flex;
+  align-items: center;
+  background-color: pink;
+  background-size: cover;
+
+
+}
+section.tout{
+  background: url(https://s1.1zoom.me/b6253/506/Roses_Closeup_Black_background_Red_Petals_538529_1920x1080.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.bouton a{
+  text-decoration: none;
+  color:white;
+}
+
+
+form input[type="info"]{width:50%; margin-bottom:12px; padding:12px; color:black; border:1px solid black; border-radius:5px;}
+form input[type="telephone"]{width:50%; margin-bottom:12px; padding:12px; color:black; border:1px solid black; border-radius:5px;}
+
+form button[type="envoyer"]{width:50%; height:auto; margin-top:15px; margin-bottom:auto; padding:20px; border:1px solid black; border-radius:5px;}
+form button[type="envoyer"]{font-weight:bold; color:black; text-transform:uppercase; background-color: #00FFFF;}
+form button[type="envoyer"]:hover{background-color: red;}

@@ -1,0 +1,56 @@
+body{
+  margin: 0 auto;
+  background: url(https://admin.abc.sm/img/gallery/upload/6102/img_lastminute_270948.jpg);
+}
+
+header.header{
+  display: flex;
+  align-items: center;
+  background-color: pink;
+
+}
+
+
+
+.Titre{
+  text-align: center;
+  font-style: italic;
+  border:3px solid black;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: white;
+
+}
+
+.Paragraphe {
+  margin-top: 150px;
+  margin-left: 500px;
+  margin-right: 500px;
+  border:3px solid black;
+  background-color: pink;
+}
+
+.Paragraphe h2{
+  text-decoration: underline;
+}
+
+.bouton a{
+  text-decoration: none;
+  color:white;
+}
+
+.Espace {
+  margin-left: 1vh
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 400px;
+    overflow: hidden;
+}
+
+nav.accueil li.bouton {
+  color: black;
+}
